@@ -1,0 +1,62 @@
+body {
+    background-color: white;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+}
+
+.form-heading {
+    text-align: center;
+}
+.input-box {
+    width: 300px;
+    margin-bottom: 30px;
+    height: 30px;
+}
+.submit-button {
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(23, 163, 218);
+    font-size: 16px;
+    border-radius: 7px;
+    width: 75px;
+    height: 35px;
+    border: 0px
+}
+
+
+.top-bar {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+}
+.top-bar a {
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 16px;
+    font-size: 16px;
+
+
+}
+
+.top-bar input{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 16px;
+}
+.top-bar button{
+    float: right;
+    padding: 6px;
+    background-color: black;
+    border-color: goldenrod;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 16px;
+    color: goldenrod;
+}
